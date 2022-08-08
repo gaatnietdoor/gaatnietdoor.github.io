@@ -9,7 +9,7 @@ tags: [test]     # TAG names should always be lowercase
 
 A data center gateway enables communication between Workload Security and your vCenter server, allowing Workload Security to retrieve your virtual machine inventory from the vCenter server. Gateways that are installed in your data center contact the vCenter servers on behalf of Workload Security, as seen in the diagram below.
 <br/><br/>
-<br/><br/>
+
 ![My image Name](/assets/gateway.png)
 
 Data center gateways and Workload Security authenticate each other and communicate via encrypted channels (TLS/443).
