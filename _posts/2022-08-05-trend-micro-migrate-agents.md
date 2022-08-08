@@ -26,11 +26,8 @@ This is one part of the process for migrating from Deep Security to Workload Sec
 4. Select one or more computers that you want to migrate.
 5. Select Actions > Migrate to Workload Security.
 6. In the dialog box that appears, specify the settings that you want applied to the agents when moved, and then select Migrate:
-<br/><br/>
 
 ![Migration Menu](/assets/migration-set-config.png)
-
-<br/><br/>
 
 * Security Policy: If you have migrated your Deep Security policies to Workload Security and want to keep the same policy applied to the migrated agent, select Assign migrated policy. If you want to assign a different policy, choose Select a policy from Workload Security and select the new policy.
 * Computer Group: The computer group where the agents will be put in Workload Security.
@@ -43,11 +40,7 @@ This is one part of the process for migrating from Deep Security to Workload Sec
 7. Check the move status.
 8. If you run into problems, check Troubleshooting
 
-<br/><br/>
-
 ![Move Agent Status](/assets/diagram_move_agent_status.png)
-
-<br/><br/>
 
 | Syntax      | Description | Description |
 | ----------- | ----------- | ----------- |
