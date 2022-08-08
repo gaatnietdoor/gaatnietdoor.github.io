@@ -41,14 +41,3 @@ This is one part of the process for migrating from Deep Security to Workload Sec
 8. If you run into problems, check Troubleshooting
 
 ![Move Agent Status](/assets/diagram_move_agent_status.png)
-
-| Syntax      | Description | Description |
-| ----------- | ----------- | ----------- |
-| Move Requested    | A move task to Workload Security has been requested.The move task has been accepted by Deep Security Manager, but not yet sent to the agent.       | N/A |
-| Moving  | Computer is being moved to Workload Security.The agent has accepted the move task, and is moving to Workload Security.   | N/A |
-| Move Complete  | Text        | Description |
-| Moving  | Computer has been moved successfully to Workload Security.Deep Security Manager is able to identify that the moved agent is activated on Workload Security.   | Manually reactivate the agent back to Deep Security Manager. Note that the agent has already trusted the Workload Security public certificate. You must remove the ds_agent_dsm_public_ca.crt file manually before activating the agent back to Deep Security Manager. |
-| Move Failed  | Computer was not moved to Workload Security due to a connectivity issue from the agent to Workload Security.The agent has rejected the move task while performing its pre-check. Before trying the move again:<br/><br/><ul><li>Check that all parameters specified for the move are correct, including the account information, activation token, public CA certificate, and proxy settings.</li><li>Check that there are no networking/firewall settings preventing the agent from reaching Workload Security.</li><li>Use the CLI to create an agent diagnostic package, which will include a ds_agent.log file containing information about the failed move.For instructions on creating diagnostic packages, see Create a diagnostic package and logs.</li></ul> | Clear Warnings on the console.The agent is still managed by Deep Security Manager.|
-||
-
-[^1]: https://help.deepsecurity.trendmicro.com/20_0/on-premise/migrate-agents.html
