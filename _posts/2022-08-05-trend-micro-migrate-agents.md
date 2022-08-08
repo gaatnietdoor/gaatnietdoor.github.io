@@ -19,9 +19,9 @@ This is one part of the process for migrating from Deep Security to Workload Sec
 ## Migrate agents using the migration tool
 
 1. In upper-right corner of the Deep Security Manager console, select Support > Migrate to Workload Security
-
+    
 ![Migration Menu](/assets/migration-menu.png)
-
+    
 2. On the Migrate to Workload Security page that appears, **select the Agents tab**.
 3. Select **Migrate using Computers page**. The Deep Security Computers page is displayed.
 4. Select one or more computers that you want to migrate.
