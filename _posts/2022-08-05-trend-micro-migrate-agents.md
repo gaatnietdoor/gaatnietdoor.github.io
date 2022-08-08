@@ -13,7 +13,8 @@ This is one part of the process for migrating from Deep Security to Workload Sec
 
 * Deep Security Manager 20.0.321 (20 LTS 2021-01-26) or later
 * Check that you're using Deep Security Agent 20.0.0-2419 or later
-* Virtual Appliance: Computers protected by Virtual Appliance (agent-less or combined-mode) will refuse to migrate.
+
+> **_NOTE:_** Virtual Appliance: Computers protected by Virtual Appliance (agent-less or combined-mode) will refuse to migrate.
 
 ## Migrate agents using the migration tool
 
@@ -41,3 +42,9 @@ This is one part of the process for migrating from Deep Security to Workload Sec
 8. If you run into problems, check Troubleshooting
 
 ![Move Agent Status](/assets/diagram_move_agent_status.png)
+
+
+{: .note .warning} 
+
+
+ dfdfdfd 
