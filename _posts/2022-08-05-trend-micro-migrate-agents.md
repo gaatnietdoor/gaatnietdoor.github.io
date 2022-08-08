@@ -43,10 +43,6 @@ This is one part of the process for migrating from Deep Security to Workload Sec
 7. Check the *move* status.
 8. If you run into problems, check Troubleshooting
 
+## Migration Workflow:
 ![Move Agent Status](/assets/diagram_move_agent_status.png)
 
-
-{: .note .warning} 
-
-
- dfdfdfd 
