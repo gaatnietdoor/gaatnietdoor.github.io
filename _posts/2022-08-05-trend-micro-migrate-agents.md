@@ -22,11 +22,13 @@ This is one part of the process for migrating from Deep Security to Workload Sec
 
 ![Migration Menu](/assets/migration-menu.png)
 
-2. On the Migrate to Workload Security page that appears, select the Agents tab.
-3. Select Migrate using Computers page. The Deep Security Computers page is displayed.
+2. On the Migrate to Workload Security page that appears, **select the Agents tab**.
+3. Select **Migrate using Computers page**. The Deep Security Computers page is displayed.
 4. Select one or more computers that you want to migrate.
-5. Select Actions > Migrate to Workload Security.
-6. In the dialog box that appears, specify the settings that you want applied to the agents when moved, and then select Migrate:
+5. Select **Actions** > **Migrate to Workload Security**.
+6. In the dialog box that appears, specify the settings that you want applied to the agents when moved, and then select **Migrate**:
+
+> **_NOTE:_** The proxy is optional. Leave both checkboxes selected 
 
 ![Migration Menu](/assets/migration-set-config.png)
 
