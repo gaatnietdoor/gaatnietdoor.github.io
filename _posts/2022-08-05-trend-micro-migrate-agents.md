@@ -29,15 +29,15 @@ This is one part of the process for migrating from Deep Security to Workload Sec
 
 ![Migration Menu](/assets/migration-set-config.png)
 
-* Security Policy: If you have migrated your Deep Security policies to Workload Security and want to keep the same policy applied to the migrated agent, select Assign migrated policy. If you want to assign a different policy, choose Select a policy from Workload Security and select the new policy.
-* Computer Group: The computer group where the agents will be put in Workload Security.
-* Relay Group: All agents will be assigned to the Primary Relay Group in Workload Security.
-* Proxy to contact Workload Security Manager: Select a proxy if agents need one to contact Workload Security.
-* Proxy to contact Relay(s): Select a proxy if agents need one to contact relays on Workload Security.
-* Migrate with existing hostname, display name, and description: Select this to use the existing hostname, display name, and description for the migrated agent.
-* Migrate with settings override at computer level: Select this to migrate any settings that have an override at the computer level. This does not include rule assignments.
+* **Security Policy**: If you have migrated your Deep Security policies to Workload Security and want to keep the same policy applied to the migrated agent, select Assign migrated policy. If you want to assign a different policy, choose Select a policy from Workload Security and select the new policy.
+* **Computer Group**: The computer group where the agents will be put in Workload Security.
+* **Relay Group**: All agents will be assigned to the Primary Relay Group in Workload Security.
+* **Proxy to contact Workload Security Manager**: Select a proxy if agents need one to contact Workload Security.
+* **Proxy to contact Relay(s)**: Select a proxy if agents need one to contact relays on Workload Security.
+* **Migrate with existing hostname, display name, and description**: Select this to use the existing hostname, display name, and description for the migrated agent.
+* **Migrate with settings override at computer level**: Select this to migrate any settings that have an override at the computer level. This does not include rule assignments.
 
-7. Check the move status.
+7. Check the *move* status.
 8. If you run into problems, check Troubleshooting
 
 ![Move Agent Status](/assets/diagram_move_agent_status.png)
@@ -50,3 +50,5 @@ This is one part of the process for migrating from Deep Security to Workload Sec
 | Moving  | Computer has been moved successfully to Workload Security.Deep Security Manager is able to identify that the moved agent is activated on Workload Security.   | Manually reactivate the agent back to Deep Security Manager. Note that the agent has already trusted the Workload Security public certificate. You must remove the ds_agent_dsm_public_ca.crt file manually before activating the agent back to Deep Security Manager. |
 | Move Failed  | Computer was not moved to Workload Security due to a connectivity issue from the agent to Workload Security.The agent has rejected the move task while performing its pre-check. Before trying the move again:<br/><br/><ul><li>Check that all parameters specified for the move are correct, including the account information, activation token, public CA certificate, and proxy settings.</li><li>Check that there are no networking/firewall settings preventing the agent from reaching Workload Security.</li><li>Use the CLI to create an agent diagnostic package, which will include a ds_agent.log file containing information about the failed move.For instructions on creating diagnostic packages, see Create a diagnostic package and logs.</li></ul> | Clear Warnings on the console.The agent is still managed by Deep Security Manager.|
 ||
+
+[^1]: https://help.deepsecurity.trendmicro.com/20_0/on-premise/migrate-agents.html
