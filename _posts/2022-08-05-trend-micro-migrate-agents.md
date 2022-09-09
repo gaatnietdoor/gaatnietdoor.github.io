@@ -2,7 +2,7 @@
 title: Migrate agents to Workload Security
 date: 2022-08-08 19:31:44 +0200
 categories: [General, Trend Micro Cloud Visione One]
-tags: [Trend Micro]     # TAG names should always be lowercase
+tags: [trend micro]     # TAG names should always be lowercase
 ---
 
 # Migrate agents to Workload Security

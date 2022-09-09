@@ -2,7 +2,7 @@
 title: Regenerating the Default Key Ring
 date: 2022-09-09 19:05:59 +0200
 categories: [General, Cisco, UCS]
-tags: [Datacenter]     # TAG names should always be lowercase
+tags: [datacenter]     # TAG names should always be lowercase
 ---
 
 ## Regenerating the Default Key Ring

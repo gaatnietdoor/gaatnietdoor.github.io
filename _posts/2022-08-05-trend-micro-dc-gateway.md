@@ -2,7 +2,7 @@
 title: Set up a data center gateway
 date: 2022-08-05 08:00:00 +0200
 categories: [General, Trend Micro]
-tags: [test]     # TAG names should always be lowercase
+tags: [trend micro]     # TAG names should always be lowercase
 ---
 
 # Set up a data center gateway

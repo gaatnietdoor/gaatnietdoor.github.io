@@ -2,7 +2,7 @@
 title: Set up a data center gateway
 date: 2022-09-07 11:43:50 +0200
 categories: [Cisco, ACI]
-tags: [Networking]     # TAG names should always be lowercase
+tags: [networking]     # TAG names should always be lowercase
 ---
 
 # Cisco ACI configuring Azure Express Route
